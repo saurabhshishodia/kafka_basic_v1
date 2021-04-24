@@ -29,6 +29,7 @@ public class Consumer {
             }
             counter++;
         }
+        
         System.out.println("Consumed all messages topic(s) "+Arrays.asList("jsonTopic"));
     }
 }
